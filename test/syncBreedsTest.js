@@ -1,5 +1,5 @@
 const assert = require("chai").assert;
-const breedDetails = require("../syncBreeds");
+const breedDetails = require("../src/syncBreeds");
 
 describe("#breedDetails", () => {
   it("returns breed details for the Bombay breed", () => {
